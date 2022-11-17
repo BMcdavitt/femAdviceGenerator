@@ -1,7 +1,7 @@
 .adviceCard {
-  width: 350px;
+  width: 21.875rem;
   background: hsl(217deg, 19%, 24%);
-  border-radius: 13px;
+  border-radius: 0.8125rem;
   font-family: "Manrope", sans-serif;
   display: grid;
   justify-items: center;
@@ -10,25 +10,25 @@
 }
 @media (min-width: 750px) {
   .adviceCard {
-    width: 540px;
+    width: 33.75rem;
   }
 }
 .adviceCard h1 {
   text-transform: uppercase;
   color: hsl(150deg, 100%, 66%);
   letter-spacing: 0.25em;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
-  margin: 52px 0 0 0;
+  margin: 3.25rem 0 0 0;
 }
 .adviceCard .advice {
-  font-size: 27px;
+  font-size: 1.6875rem;
   color: hsl(193deg, 38%, 86%);
   text-align: center;
-  margin: 40px 45px;
+  margin: 2.5rem 2.8125rem;
 }
 .adviceCard .divider {
-  margin-bottom: 72px;
+  margin-bottom: 4.5rem;
 }
 .adviceCard .desktopDivider {
   display: none;
@@ -43,15 +43,15 @@
 }
 .adviceCard .dieHolder {
   background: hsl(150deg, 100%, 66%);
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: -32px;
+  bottom: -2rem;
 }
 .adviceCard .dieHolder:hover {
-  box-shadow: 0px 0px 30px 10px rgba(82, 255, 168, 0.55);
+  box-shadow: 0rem 0rem 1.875rem 0.625rem rgba(82, 255, 168, 0.55);
 }
