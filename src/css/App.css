@@ -1,0 +1,10 @@
+body {
+  background-color: hsl(218deg, 23%, 16%);
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

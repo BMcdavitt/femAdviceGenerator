@@ -1,0 +1,12 @@
+@import 'config';
+
+body {
+    background-color: $color-drak-blue;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
